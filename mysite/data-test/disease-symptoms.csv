@@ -1,0 +1,14 @@
+﻿,symptom_en,symptom_vi,Alzheimers,Arthritis,Asthma,Diabetes,Epilepsy,Glaucoma,Heart Disease,Heat Stroke,Hyperthyroidism,Hypothermia,Jaundice,Sinusitis,Tuberculosis
+symptom_0,headache,đau đầu,no,no,no,no,no,yes,no,yes,no,no,no,yes,no
+symptom_1,back_pain,đau lưng,no,yes,no,no,no,no,no,no,no,no,no,no,no
+symptom_2,chest_pain,tức ngực,no,no,yes,no,no,no,yes,no,no,no,no,no,yes
+symptom_3,cough,ho,no,no,yes,no,no,no,no,no,no,no,no,yes,yes
+symptom_4,fainting,cảm giác muốn ngất xỉu,no,no,no,no,no,no,no,no,no,yes,no,no,no
+symptom_5,fatigue,mệt mỏi,no,yes,no,yes,yes,no,no,no,yes,no,yes,no,no
+symptom_6,sunken_eyes,mắt thâm quầng,no,no,no,no,no,no,no,no,no,no,no,no,no
+symptom_7,low_body_temp,cảm thấy lạnh,no,no,no,no,no,no,no,no,no,yes,no,no,no
+symptom_8,restlessness,bồn chồn,yes,no,yes,no,no,no,no,no,no,no,no,no,no
+symptom_9,sore_throat,đau họng,no,no,no,no,no,no,no,no,no,no,no,yes,no
+symptom_10,fever,sốt,no,no,no,no,no,no,no,yes,no,no,yes,yes,yes
+symptom_11,nausea,buồn nôn,no,no,no,yes,no,yes,yes,yes,yes,no,yes,no,no
+symptom_12,blurred_vision,mắt mờ,no,no,no,yes,no,yes,no,no,no,no,no,no,no

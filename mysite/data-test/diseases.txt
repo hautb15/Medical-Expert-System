@@ -1,0 +1,13 @@
+Alzheimers
+Arthritis
+Asthma
+Diabetes
+Epilepsy
+Glaucoma
+Heart Disease
+Heat Stroke
+Hyperthyroidism
+Hypothermia
+Jaundice
+Sinusitis
+Tuberculosis

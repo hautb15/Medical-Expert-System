@@ -1,0 +1,15 @@
+﻿,symptom_en,symptom_vi,Soi,QuaiBi,Rubella,ThuyDau,SotXuatHuyet
+symptom_0,headache,đau đầu,no,no,no,yes,yes
+symptom_1,cough,ho,yes,no,no,no,no
+symptom_2,eruptive,phát ban,yes,no,yes,no,no
+symptom_3,rhinorrhea,sổ mũi,yes,no,no,no,no
+symptom_4,red_eyes,đỏ mắt,yes,no,no,no,no
+symptom_5,psomophagia,đau khi nhai,no,yes,no,no,no
+symptom_6,sore_throat,đau họng,no,no,no,yes,no
+symptom_7,fever,sốt,yes,yes,yes,yes,yes
+symptom_8,glandulae_parotis,sưng tuyến mang tai,no,yes,no,no,no
+symptom_9,deradenoncus,sưng hạch,no,no,yes,no,no
+symptom_10,arthralgia,đau khớp,no,yes,yes,no,yes
+symptom_11,erythematous_syphilid,hồng ban,no,no,no,yes,no
+symptom_12,bulla,bóng nước,no,no,no,yes,no
+symptom_13,blood_dots,chấm xuất huyết,no,no,no,no,yes

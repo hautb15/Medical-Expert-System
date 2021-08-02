@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <title>MES System</title>
+    <style>
+        #content {
+            max-width: 500px;
+            margin: auto;
+        }
+        #content input{
+            height: 30px;
+			
+        }
+        table{
+        width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div id="content" >
+<h1>HỆ CHẨN ĐOÁN BỆNH</h1><br>
+<label>Vui lòng khai các triệu chứng:</label><br><br><br>
+    <form method="POST" action="{% url 'chandoan' %}" style='font-size:xx-large'>
+        {% csrf_token %}
+    <table>
+        <thead>
+            <td><b>Triệu chứng</b></td>
+            <td><b>Có</b></td>
+            <td><b>Không</b></td>
+        </thead>
+        {% for d in data %}
+        <tr>
+            <td>{{ d }}</td>
+            <fieldset id="{{ forloop.counter }}" hidden>
+                <td><input name="{{ forloop.counter }}" value="yes" type="radio" /></td>
+                <td><input name="{{ forloop.counter }}" value="no" type="radio" checked/></td>
+            </fieldset>
+        </tr>
+        {% endfor %}
+    </table><br>
+    <input type="submit" value="CHẨN ĐOÁN">
+    </form>
+</div>
+</body>
+</html>

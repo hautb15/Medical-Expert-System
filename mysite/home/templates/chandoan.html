@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MES System</title>
+    <style>
+        #content {
+            max-width: 1500px;
+            margin: auto;
+        }
+        #content input{
+            height: 30px;
+        }
+        textarea {
+			width: 1500px;
+			height: 550px;
+			font-size:xx-large;
+		  
+		}
+    </style>
+</head>
+<body>
+<div id="content">
+<h1>HỆ CHẨN ĐOÁN BỆNH</h1><br>
+    <label><b>KẾT QUẢ</b></label><br><br><br>
+    <textarea rows="100" cols="100">{{ result }}</textarea><br><br><br>
+    <a href="{% url 'index' %}" style='font-size:xx-large'><b>Khai báo lại</b></a>
+</div>
+</body>
+</html>

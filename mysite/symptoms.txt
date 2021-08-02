@@ -1,0 +1,14 @@
+headache
+cough
+eruptive
+rhinorrhea
+red_eyes
+psomophagia
+sore_throat
+fever
+glandulae_parotis
+deradenoncus
+arthralgia
+erythematous_syphilid
+bulla
+blood_dots
